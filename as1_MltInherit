@@ -1,0 +1,33 @@
+//  ID: 1810176115
+//  Name: Shahin Alam
+
+
+
+interface walk1 {
+    void walk();
+}
+
+interface jump2{
+    void jump();
+}
+
+  // this class implements both interfaces above
+class Cat implements walk1, jump2 {
+    @Override
+    public void walk() {
+        System.out.println("The cat can walk");
+    }
+
+    @Override
+    public void jump() {
+        System.out.println("The Cat can jump");
+    }
+}
+
+public class as1_MltInherit {
+    public static void main(String[] args) {
+        Cat cat = new Cat();
+        cat.walk();   // from walk1 interface
+        cat.jump();  // from jump2 interface
+    }
+}
