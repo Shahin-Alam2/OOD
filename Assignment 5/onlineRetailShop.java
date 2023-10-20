@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class onlineRetailerShop {
+public class onlineRetailShop {
     public static void main(String[] args) {
         Warehouse warehouse = new WarehouseProxy();
 
